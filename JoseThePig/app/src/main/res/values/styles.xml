@@ -1,0 +1,11 @@
+<resources>
+
+     <!--Base application theme.-->
+    <style name="AppTheme" parent="AppTheme">
+
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

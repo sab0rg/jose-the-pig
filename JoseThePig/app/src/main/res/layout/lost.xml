@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:layout_margin="15px" android:background="@drawable/button">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtLost"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Your Score is"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:textAlignment="gravity"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/toMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/button"
+                android:scaleType="fitXY"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_restart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Main Menu"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="35dp"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

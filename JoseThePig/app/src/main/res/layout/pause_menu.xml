@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imCont"
+                android:layout_width="400dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/button" android:scaleType="fitXY" android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/continue_g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Continue"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="60dp"
+                android:textColor="#000000"
+                android:textIsSelectable="false" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/toMain"
+                android:layout_width="400dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/button" android:scaleType="fitXY" android:padding="10dp"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/go_mainmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Main Menu"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="60dp"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
